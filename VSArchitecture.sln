@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5A7BEE41-2C58-4160-AF1E-B4CC67386811}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSAchitecture.Api", "VSAchitecture.Api\VSAchitecture.Api.csproj", "{7B85021B-533C-4CFD-BC91-2F9FA10B80B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7B85021B-533C-4CFD-BC91-2F9FA10B80B5} = {5A7BEE41-2C58-4160-AF1E-B4CC67386811}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B85021B-533C-4CFD-BC91-2F9FA10B80B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B85021B-533C-4CFD-BC91-2F9FA10B80B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B85021B-533C-4CFD-BC91-2F9FA10B80B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B85021B-533C-4CFD-BC91-2F9FA10B80B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
