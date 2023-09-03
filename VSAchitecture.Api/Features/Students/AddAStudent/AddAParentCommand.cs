@@ -51,8 +51,8 @@ public class AddAStudentCommandHandler : IRequestHandler<AddAStudentCommand, Gui
 
         if (validatorError.Errors.Count > 0)
         {
-            throw new VSAchitecture.Api.Exceptions.ValidationException(validatorError);
             _logger.LogWarning("Request to add student failed due to validation");
+            throw new VSAchitecture.Api.Exceptions.ValidationException(validatorError);
         }
 
         var student = _mapper.Map<Student>(request);

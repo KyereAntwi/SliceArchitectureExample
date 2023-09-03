@@ -53,8 +53,8 @@ public class UpdateAStudentCommandHandler : IRequestHandler<UpdateAStudentComman
 
         if (validatorError.Errors.Count > 0)
         {
-            throw new VSAchitecture.Api.Exceptions.ValidationException(validatorError);
             _logger.LogWarning("Request to update student failed due to validation");
+            throw new VSAchitecture.Api.Exceptions.ValidationException(validatorError);
         }
 
         var student = _mapper.Map<Student>(request);
